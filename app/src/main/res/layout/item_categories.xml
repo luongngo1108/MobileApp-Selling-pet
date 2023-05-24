@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp">
+    <ImageView
+        android:id="@+id/item_img"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:src="@drawable/ic_item_img"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Điện thoại"
+        android:textSize="15dp"
+        android:textColor="@android:color/holo_red_light"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center"/>
+</LinearLayout>
